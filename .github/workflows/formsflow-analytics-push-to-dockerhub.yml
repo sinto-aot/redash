@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: formsflow/redash
+          - image: sinto-aot/redash
             context: .
             dockerfile: Dockerfile
             name: app
